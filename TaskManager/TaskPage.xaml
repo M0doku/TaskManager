@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:taskmanager="clr-namespace:TaskManager"
+			 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+			 xmlns:localization="clr-namespace:LocalizationResourceManager.Maui;assembly=LocalizationResourceManager.Maui"
+             x:Class="TaskManager.TaskPage"
+			 Appearing="ContentPage_Appearing"
+			 Disappearing="ContentPage_Disappearing">
+
+	<ContentPage.Resources>
+		<Style ApplyToDerivedTypes="True" TargetType="Editor">
+			<Setter Property="BackgroundColor" Value="Transparent"/>
+			<Setter Property="Margin" Value="0"/>
+		</Style>
+		<ResourceDictionary>
+			<DataTemplate x:Key="HybridTemplate">
+				<StackLayout>
+					<Image 
+						Margin="2,2,2,2"
+						Source="{Binding ImageSource}" 
+						Aspect="AspectFill"  
+						IsEnabled="{Binding isImageItem}" 
+						IsVisible="{Binding isImageItem}"/>
+					
+					<Editor 
+						FontFamily="Moonspace" 
+						FontAttributes="Bold" 
+						x:Name="TaskPageEditor" 
+						x:FieldModifier="public"  
+						Text="{Binding Text}"  
+						FontSize="16" 
+						InputTransparent="true" 
+						TextColor="Black" 
+						IsVisible="{Binding isTextItem}" 
+						AutoSize="TextChanges" 
+						IsEnabled="{Binding isTextItem}" 
+						IsSpellCheckEnabled="False" />
+					
+				</StackLayout>
+			</DataTemplate>
+
+			<taskmanager:ItemDataTemplateSelector
+				x:Key="templateSelector"
+				HybridTemplate="{StaticResource HybridTemplate}"/>
+				
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+	<Grid BackgroundColor="White">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="0.5*"/>
+			<RowDefinition x:FieldModifier="public" x:Name="ContentsRow" Height="*"/>
+			<RowDefinition x:FieldModifier="public" x:Name="ButtonsRow0" Height="*"/>
+			<RowDefinition x:FieldModifier="public" x:Name="ButtonsRow1" Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition x:FieldModifier="public" x:Name="ColumnRow0" Width="*"/>
+			<ColumnDefinition x:FieldModifier="public" x:Name="ColumnRow1" Width="*"/>
+			<ColumnDefinition x:FieldModifier="public" x:Name="ColumnRow2" Width="*"/>
+			<ColumnDefinition x:FieldModifier="public" Width="*"/>
+			<ColumnDefinition x:FieldModifier="public" Width="*"/>
+			<ColumnDefinition x:FieldModifier="public" Width="*"/>
+		</Grid.ColumnDefinitions>
+
+		<ScrollView 
+			VerticalScrollBarVisibility="Never" 
+			BackgroundColor="White" 
+			Grid.Row="1" 
+			Grid.Column="0" 
+			Grid.ColumnSpan="2"
+			VerticalOptions="FillAndExpand">
+
+			<CollectionView 
+				x:Name="ItemsToDo_CV"  
+				ChildRemoved="ItemsToDo_CV_ChildRemoved" 
+				x:FieldModifier="public" 
+				ItemTemplate="{StaticResource templateSelector}" 
+				ItemsSource="{Binding test}"
+				SelectionMode="Single" 
+				SelectionChanged="ItemsToDo_CV_SelectionChanged">
+
+				<CollectionView.ItemsLayout>
+					<GridItemsLayout 
+						SnapPointsAlignment="Center"
+						Orientation="Vertical"/>
+
+				</CollectionView.ItemsLayout>
+			</CollectionView>
+		</ScrollView>
+
+		<ScrollView 
+			VerticalScrollBarVisibility="Never" 
+			BackgroundColor="White"  
+			Grid.Row="1" 
+			Grid.Column="2"
+			Grid.ColumnSpan="2"
+			VerticalOptions="FillAndExpand">
+
+			<CollectionView 
+				x:Name="ItemsDoing_CV" 
+				ChildRemoved="ItemsDoing_CV_ChildRemoved" 
+				x:FieldModifier="public"  
+				ItemTemplate="{StaticResource templateSelector}" 
+				SelectionMode="Single"
+				SelectionChanged="ItemsDoing_CV_SelectionChanged">
+
+				<CollectionView.ItemsLayout>
+					<GridItemsLayout 
+						SnapPointsAlignment="Center" 
+						Orientation="Vertical"/>
+
+				</CollectionView.ItemsLayout>
+			</CollectionView>
+		</ScrollView>
+
+		<ScrollView 
+			VerticalScrollBarVisibility="Never"
+			BackgroundColor="White" 
+			Grid.Row="1" 
+			Grid.Column="4"
+			Grid.ColumnSpan="2"
+			VerticalOptions="FillAndExpand">
+
+			<CollectionView 
+				x:Name="ItemsDone_CV" 
+				ChildRemoved="ItemsDone_CV_ChildRemoved"  
+				x:FieldModifier="public" 
+				ItemTemplate="{StaticResource templateSelector}" 
+				SelectionMode="Single" 
+				SelectionChanged="ItemsDone_CV_SelectionChanged">
+
+				<CollectionView.ItemsLayout>
+					<GridItemsLayout 
+						SnapPointsAlignment="Center" 
+						Orientation="Vertical"/>
+
+				</CollectionView.ItemsLayout>
+			</CollectionView>
+		</ScrollView>
+
+		<Label 
+			Text="{localization:Translate TaskPageToDoLabel}" 
+			FontSize="15"
+			HorizontalOptions="Center" 
+			Grid.Row="0" 
+			Grid.Column="0"
+			Grid.ColumnSpan="2"/>
+
+		<Label 
+			Text="{localization:Translate TaskPageDoingLabel}" 
+			FontSize="15" 
+			HorizontalOptions="Center" 
+			Grid.Row="0" 
+			Grid.Column="2"
+			Grid.ColumnSpan="2"/>
+
+		<Label 
+			Text="{localization:Translate TaskPageDoneLabel}" 
+			FontSize="15"
+			HorizontalOptions="Center" 
+			Grid.Row="0" 
+			Grid.Column="4"
+			Grid.ColumnSpan="2"/>
+
+		<Picker 
+			FontAutoScalingEnabled="true" 
+			x:Name="ItemPicker"   
+			x:FieldModifier="public"  
+			Title="{localization:Translate TaskPageItemPickerTitle}" 
+			TitleColor="Black" 
+			Grid.Column="2" 
+			Grid.ColumnSpan="2"
+			Grid.Row="3" 
+			SelectedIndexChanged="ItemPicker_SelectedIndexChanged">
+
+		</Picker>
+
+		<Button 
+			Text="{localization:Translate TaskPageMoveLeftButton}"  
+			x:FieldModifier="public"
+			x:Name="MoveLeftButton"
+			Grid.Row="2" 
+			Grid.Column="4"
+			Clicked="MoveLeft_Button_Clicked"/>
+
+		<Button 
+			Text="{localization:Translate TaskPageMoveRightButton}" 
+			x:FieldModifier="public" 
+			x:Name="MoveRightButton" 
+			Grid.Row="2" 
+			Grid.Column="5"
+			Clicked="MoveRight_Button_Clicked"/>
+
+		<Button 
+			Text="{localization:Translate TaskPageAddButton}"  
+			x:Name="AddButton" 
+			x:FieldModifier="public" 
+			Grid.Row="3"
+			Grid.Column="4"
+			Grid.ColumnSpan="2"
+			Clicked="AddItem_Button_Clicked"/>
+
+		<Button 
+			x:Name="EditButton"
+			Text="{localization:Translate TaskPageEditButton}"  
+			x:FieldModifier="public" 
+			Grid.Row="3" 
+			Grid.Column="0"
+			Grid.ColumnSpan="2"
+			IsEnabled="False"
+			Clicked="Edit_Button_Clicked"/>
+
+		<Button 
+			Text="{localization:Translate TaskPageDeleteButton}" 
+			x:Name="DeleteButton"
+			x:FieldModifier="public" 
+			Grid.Row="2" 
+			Grid.Column="2"  
+			Grid.ColumnSpan="2"
+			Clicked="Delete_Button_Clicked"/>
+
+		<Button 
+			x:Name="OpenButton" 
+			IsEnabled="False"
+			x:FieldModifier="public"  
+			Text="{localization:Translate TaskPageOpenButton}" 
+			Grid.Row="2" 
+			Grid.Column="0" 
+			Grid.ColumnSpan="2"
+			Clicked="Open_Button_Clicked"/>
+
+	</Grid>
+</ContentPage>

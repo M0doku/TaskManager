@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:taskmanager="clr-namespace:TaskManager"
+			 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+			 xmlns:localization="clr-namespace:LocalizationResourceManager.Maui;assembly=LocalizationResourceManager.Maui"
+             x:Class="TaskManager.MainPage"
+			 Appearing="ContentPage_Appearing">
+
+	<Grid BackgroundColor="White">
+		<Grid.RowDefinitions>
+			<RowDefinition 
+				x:Name="ContentsRow" 
+				x:FieldModifier="public" 
+				Height="5*"/>
+			
+			<RowDefinition 
+				x:Name="ButtonsRow0" 
+				x:FieldModifier="public"
+				Height="*"/>
+			
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		
+		<Button 
+			Text="{localization:Translate MainPageCreateTaskButton}" 
+			x:Name="CreateTaskButton"  
+			Grid.Row="2" 
+			Grid.Column="1" 
+			FontSize="20" 
+			Clicked="CreateTaskButton_Clicked" 
+			IsVisible="True" 
+			IsEnabled="True" />
+		
+		<Button 
+			Text="{localization:Translate MainPageDeleteTaskButton}"  
+			Grid.Row="2" 
+			Grid.Column="0" 
+			FontSize="20" 
+			Clicked="DeleteTaskButton_Clicked" />
+		
+		<Button 
+			Text="{localization:Translate MainPageOpenTaskButton}" 
+			x:Name="OpenTaskButton"  
+			Grid.Row="2" 
+			Grid.Column="1" 
+			FontSize="20" 
+			Clicked="OpenTaskButton_Clicked" 
+			IsVisible="False" 
+			IsEnabled="False"/>
+		
+		<ScrollView 
+			Grid.Row="0" 
+			Grid.ColumnSpan="2">
+			
+			<CollectionView
+				x:FieldModifier="public"
+				x:Name="Tasks_CV"   
+				SelectionMode="Single" 
+				SelectionChanged="Tasks_CV_SelectionChanged">
+				
+				<CollectionView.ItemTemplate>
+					<DataTemplate>
+						<StackLayout>
+							
+							<Editor  
+								FontSize="20"  
+								TextColor="Black" 
+								HorizontalTextAlignment="Start" 
+								FontFamily="Courier New" 
+								Text="{Binding TaskName}" 
+								InputTransparent="True" 
+								IsSpellCheckEnabled="False" />
+							
+							<BoxView 
+								HeightRequest="1" 
+								BackgroundColor="LightGray"/>
+							
+						</StackLayout>
+						
+					</DataTemplate>
+				</CollectionView.ItemTemplate>
+			</CollectionView>
+		</ScrollView>
+
+	</Grid>
+
+
+</ContentPage>
