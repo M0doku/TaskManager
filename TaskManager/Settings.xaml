@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:localization="clr-namespace:LocalizationResourceManager.Maui;assembly=LocalizationResourceManager.Maui"
+             x:Class="TaskManager.Settings"
+             Title="Settings"
+			 Appearing="Settings_Appearing">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition x:Name="ContentsRow" x:FieldModifier="public" Height="10*"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		
+		<Label 
+			x:Name="PickerLabel" 
+			Grid.Row="0" 
+			FontSize="16" 
+			HorizontalOptions="Center" 
+			VerticalOptions="Center" 
+			Text="{localization:Translate SettingsPickerLanguageLabel}"/>
+		
+		<Button 
+			x:Name="SaveSettings" 
+			Grid.Row="4" 
+			Text="{localization:Translate SettingsSaveSettingsButton}" 
+			Grid.ColumnSpan="4" 
+			Clicked="SaveSettings_Clicked"/>
+		
+		<CheckBox 
+			x:Name="DeleteAllRowsCB" 
+			IsChecked="False" 
+			Grid.Row="2" 
+			Grid.Column="0"/>
+		
+		<Button 
+			BindingContext="{x:Reference DeleteAllRowsCB}" 
+			IsEnabled="{Binding IsChecked}" 
+			Grid.ColumnSpan="3" 
+			Grid.Column="1" 
+			x:Name="RemoveAllTasksButton" 
+			Text="{localization:Translate SettingsRemoveAllTasksButton}" 
+			FontSize="20" 
+			FontFamily="Courier New" 
+			Clicked="RemoveAllTasksButton_Clicked" 
+			FontAttributes="Bold"  
+			Grid.Row="2"/>
+		
+		<Picker 
+			Grid.Row="0" 
+			FontSize="20" 
+			Grid.Column="1" 
+			Grid.ColumnSpan="3" 
+			HorizontalTextAlignment="Center" 
+			Title="{localization:Translate SettingsPickerLanguageTitle}"  
+			TitleColor="Black" 
+			TextColor="Black" 
+			x:Name="PickerLanguages" 
+			x:FieldModifier="public">
+			
+			<Picker.Items>
+				<x:String>Русский</x:String>
+				<x:String>English</x:String>
+			</Picker.Items>
+		</Picker>
+	</Grid>
+</ContentPage>

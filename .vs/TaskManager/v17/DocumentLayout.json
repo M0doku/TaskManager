@@ -1,0 +1,774 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\taskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\taskpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\taskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\taskpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\edittextpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\edittextpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\datatemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\datatemplateselector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|C:\\Users\\Modoku\\source\\repos\\TaskManager\\taskmanager\\appresources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\appresources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|C:\\Users\\Modoku\\source\\repos\\TaskManager\\taskmanager\\appresources.ru.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\appresources.ru.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\createtaskpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\createtaskpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\openimagepopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\openimagepopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\databases\\itemsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\databases\\itemsdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\classes\\layoutupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\classes\\layoutupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\classes\\itemsaddingmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\classes\\itemsaddingmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\classes\\itemmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\classes\\itemmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\classes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\classes\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\classes\\tasksmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\classes\\tasksmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\classes\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\classes\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\createtextitempopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\createtextitempopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\classes\\buttonstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\classes\\buttonstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\taskmanager.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\taskmanager.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\taskmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\taskmanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\platforms\\android\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\databases\\taskdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\databases\\taskdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\databases\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\databases\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\openimagepopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\openimagepopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\edittextpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\edittextpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\createtextitempopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\createtextitempopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\createtaskpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\createtaskpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Modoku\\AppData\\Local\\Temp\\.vsdbgsrc\\ba041870da8ca6348c65738afd605346595d986aa0f7cd57fbbe5b6323739740\\SQLiteConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Tooling.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Modoku\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.7\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|c:\\users\\modoku\\source\\repos\\taskmanager\\taskmanager\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CD7CFD71-41F2-4C93-AA91-4486B90B5075}|TaskManager\\TaskManager.csproj|solutionrelative:taskmanager\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\MainPage.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\MainPage.xaml",
+              "RelativeToolTip": "TaskManager\\MainPage.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-18T13:45:59.394Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9b96d899-3214-4b6f-a8b9-182d4bc2f76f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\TaskPage.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\TaskPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\TaskPage.xaml.cs",
+              "RelativeToolTip": "TaskManager\\TaskPage.xaml.cs",
+              "ViewState": "AQIAAC4BAAAAAAAAAAAYwPcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T14:05:03.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppResources.ru.resx",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\AppResources.ru.resx",
+              "RelativeDocumentMoniker": "TaskManager\\AppResources.ru.resx",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\AppResources.ru.resx",
+              "RelativeToolTip": "TaskManager\\AppResources.ru.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-27T21:37:24.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppResources.resx",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\AppResources.resx",
+              "RelativeDocumentMoniker": "TaskManager\\AppResources.resx",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\AppResources.resx",
+              "RelativeToolTip": "TaskManager\\AppResources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-02-27T21:33:16.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditTextPopup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\EditTextPopup.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\EditTextPopup.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\EditTextPopup.xaml.cs",
+              "RelativeToolTip": "TaskManager\\EditTextPopup.xaml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T20:45:04.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataTemplateSelector.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\DataTemplateSelector.cs",
+              "RelativeDocumentMoniker": "TaskManager\\DataTemplateSelector.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\DataTemplateSelector.cs",
+              "RelativeToolTip": "TaskManager\\DataTemplateSelector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:24:16.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Settings.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Settings.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\Settings.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Settings.xaml",
+              "RelativeToolTip": "TaskManager\\Settings.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-21T22:33:13.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\TaskPage.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\TaskPage.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\TaskPage.xaml",
+              "RelativeToolTip": "TaskManager\\TaskPage.xaml",
+              "ViewState": "AQIAAMAAAAAAAAAAAAAAAL0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-18T19:58:26.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "TaskManager\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-24T23:31:25.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateTaskPopup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\CreateTaskPopup.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\CreateTaskPopup.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\CreateTaskPopup.xaml.cs",
+              "RelativeToolTip": "TaskManager\\CreateTaskPopup.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T15:35:09.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\MainPage.xaml.cs",
+              "RelativeToolTip": "TaskManager\\MainPage.xaml.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAUwCQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T02:24:47.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OpenImagePopup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\OpenImagePopup.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\OpenImagePopup.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\OpenImagePopup.xaml.cs",
+              "RelativeToolTip": "TaskManager\\OpenImagePopup.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T20:49:40.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\AppShell.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\AppShell.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\AppShell.xaml",
+              "RelativeToolTip": "TaskManager\\AppShell.xaml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-21T22:32:15.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\AppShell.xaml.cs",
+              "RelativeToolTip": "TaskManager\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T22:32:17.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemsDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Databases\\ItemsDatabase.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Databases\\ItemsDatabase.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Databases\\ItemsDatabase.cs",
+              "RelativeToolTip": "TaskManager\\Databases\\ItemsDatabase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T20:11:48.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemsAddingMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\ItemsAddingMethods.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Classes\\ItemsAddingMethods.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\ItemsAddingMethods.cs",
+              "RelativeToolTip": "TaskManager\\Classes\\ItemsAddingMethods.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAADwv2UAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T21:19:54.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ItemMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\ItemMethods.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Classes\\ItemMethods.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\ItemMethods.cs",
+              "RelativeToolTip": "TaskManager\\Classes\\ItemMethods.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwDAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T20:48:09.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\Item.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Classes\\Item.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\Item.cs",
+              "RelativeToolTip": "TaskManager\\Classes\\Item.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T12:45:52.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LayoutUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\LayoutUpdate.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Classes\\LayoutUpdate.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\LayoutUpdate.cs",
+              "RelativeToolTip": "TaskManager\\Classes\\LayoutUpdate.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwEsAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T15:33:09.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TasksMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\TasksMethods.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Classes\\TasksMethods.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\TasksMethods.cs",
+              "RelativeToolTip": "TaskManager\\Classes\\TasksMethods.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T22:36:15.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\Task.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Classes\\Task.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\Task.cs",
+              "RelativeToolTip": "TaskManager\\Classes\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T01:31:36.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateTextItemPopup.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\CreateTextItemPopup.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\CreateTextItemPopup.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\CreateTextItemPopup.xaml.cs",
+              "RelativeToolTip": "TaskManager\\CreateTextItemPopup.xaml.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T15:08:57.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Settings.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Settings.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Settings.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Settings.xaml.cs",
+              "RelativeToolTip": "TaskManager\\Settings.xaml.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T17:45:33.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "TaskManager\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\MauiProgram.cs",
+              "RelativeToolTip": "TaskManager\\MauiProgram.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwCUAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T01:25:48.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ButtonState.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\ButtonState.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Classes\\ButtonState.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Classes\\ButtonState.cs",
+              "RelativeToolTip": "TaskManager\\Classes\\ButtonState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T12:50:39.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TaskManager",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\TaskManager.csproj",
+              "RelativeDocumentMoniker": "TaskManager\\TaskManager.csproj",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\TaskManager.csproj",
+              "RelativeToolTip": "TaskManager\\TaskManager.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-05T14:39:35.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TaskManager.csproj",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\TaskManager.csproj",
+              "RelativeDocumentMoniker": "TaskManager\\TaskManager.csproj",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\TaskManager.csproj",
+              "RelativeToolTip": "TaskManager\\TaskManager.csproj",
+              "ViewState": "AQIAABMAAAAAAAAAAABBwJ4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-18T14:07:41.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Windows\\App.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\Platforms\\Windows\\App.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Windows\\App.xaml",
+              "RelativeToolTip": "TaskManager\\Platforms\\Windows\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-22T20:05:45.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "TaskManager\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T15:29:38.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "TaskManager\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T11:23:47.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "TaskManager\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "TaskManager\\Platforms\\Android\\AndroidManifest.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-08T10:51:41.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "TaskDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Databases\\TaskDatabase.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Databases\\TaskDatabase.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Databases\\TaskDatabase.cs",
+              "RelativeToolTip": "TaskManager\\Databases\\TaskDatabase.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAQwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T01:29:05.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Databases\\Constants.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Databases\\Constants.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Databases\\Constants.cs",
+              "RelativeToolTip": "TaskManager\\Databases\\Constants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwA0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T14:00:46.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\App.xaml.cs",
+              "RelativeToolTip": "TaskManager\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T13:59:26.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OpenImagePopup.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\OpenImagePopup.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\OpenImagePopup.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\OpenImagePopup.xaml",
+              "RelativeToolTip": "TaskManager\\OpenImagePopup.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-21T20:49:34.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EditTextPopup.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\EditTextPopup.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\EditTextPopup.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\EditTextPopup.xaml",
+              "RelativeToolTip": "TaskManager\\EditTextPopup.xaml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAiwAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-28T20:44:01.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CreateTextItemPopup.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\CreateTextItemPopup.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\CreateTextItemPopup.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\CreateTextItemPopup.xaml",
+              "RelativeToolTip": "TaskManager\\CreateTextItemPopup.xaml",
+              "ViewState": "AQIAABIAAAAAAAAAAIBZwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-28T15:08:22.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateTaskPopup.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\CreateTaskPopup.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\CreateTaskPopup.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\CreateTaskPopup.xaml",
+              "RelativeToolTip": "TaskManager\\CreateTaskPopup.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-28T15:35:02.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\App.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\App.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\App.xaml",
+              "RelativeToolTip": "TaskManager\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-21T22:32:13.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "TaskManager\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Properties\\launchSettings.json",
+              "RelativeToolTip": "TaskManager\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-21T22:32:46.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SQLiteConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\AppData\\Local\\Temp\\.vsdbgsrc\\ba041870da8ca6348c65738afd605346595d986aa0f7cd57fbbe5b6323739740\\SQLiteConnection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ba041870da8ca6348c65738afd605346595d986aa0f7cd57fbbe5b6323739740\\SQLiteConnection.cs",
+              "ToolTip": "C:\\Users\\Modoku\\AppData\\Local\\Temp\\.vsdbgsrc\\ba041870da8ca6348c65738afd605346595d986aa0f7cd57fbbe5b6323739740\\SQLiteConnection.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\ba041870da8ca6348c65738afd605346595d986aa0f7cd57fbbe5b6323739740\\SQLiteConnection.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAjwJoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:10:27.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Xamarin.Android.Tooling.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Tooling.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Tooling.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Tooling.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Tooling.targets",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAIwGMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-05T14:34:56.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "TaskManager\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "TaskManager\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-24T23:31:19.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Microsoft.Maui.Resizetizer.After.targets",
+              "DocumentMoniker": "C:\\Users\\Modoku\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.7\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.7\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ToolTip": "C:\\Users\\Modoku\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.7\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.7\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
+              "ViewState": "AQIAAFkCAAAAAAAAAAArwG4CAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-03T22:08:48.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Xamarin.Android.Aapt2.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.52\\tools\\Xamarin.Android.Aapt2.targets",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAmwJsAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-03-03T11:37:12.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "TaskManager\\Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "TaskManager\\Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T16:31:46.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Windows\\app.manifest",
+              "RelativeDocumentMoniker": "TaskManager\\Platforms\\Windows\\app.manifest",
+              "ToolTip": "C:\\Users\\Modoku\\source\\repos\\TaskManager\\TaskManager\\Platforms\\Windows\\app.manifest",
+              "RelativeToolTip": "TaskManager\\Platforms\\Windows\\app.manifest",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-02-22T20:05:54.137Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
