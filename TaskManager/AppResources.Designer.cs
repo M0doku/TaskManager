@@ -88,6 +88,24 @@ namespace TaskManager {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на 3 Columns.
+        /// </summary>
+        internal static string CreateTaskPopupThreeColumnsButton {
+            get {
+                return ResourceManager.GetString("CreateTaskPopupThreeColumnsButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на 2 Columns.
+        /// </summary>
+        internal static string CreateTaskPopupTwoColumnsButton {
+            get {
+                return ResourceManager.GetString("CreateTaskPopupTwoColumnsButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Cancel.
         /// </summary>
         internal static string CreateTextItemPopupCancelButton {
@@ -111,6 +129,60 @@ namespace TaskManager {
         internal static string CreateTextItemPopupLabel {
             get {
                 return ResourceManager.GetString("CreateTextItemPopupLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Between words.
+        /// </summary>
+        internal static string CreateTextItemPopupLabelTrimBetween {
+            get {
+                return ResourceManager.GetString("CreateTextItemPopupLabelTrimBetween", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Last.
+        /// </summary>
+        internal static string CreateTextItemPopupLabelTrimFinally {
+            get {
+                return ResourceManager.GetString("CreateTextItemPopupLabelTrimFinally", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Trim first.
+        /// </summary>
+        internal static string CreateTextItemPopupLabelTrimFirst {
+            get {
+                return ResourceManager.GetString("CreateTextItemPopupLabelTrimFirst", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Symbol.
+        /// </summary>
+        internal static string CreateTextItemPopupLabelTrimSymbol {
+            get {
+                return ResourceManager.GetString("CreateTextItemPopupLabelTrimSymbol", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Quick adding.
+        /// </summary>
+        internal static string CreateTextItemPopupQuickAddingLabel {
+            get {
+                return ResourceManager.GetString("CreateTextItemPopupQuickAddingLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Type.
+        /// </summary>
+        internal static string CreateTextItemPopupTypeLabel {
+            get {
+                return ResourceManager.GetString("CreateTextItemPopupTypeLabel", resourceCulture);
             }
         }
         
@@ -196,6 +268,15 @@ namespace TaskManager {
         }
         
         /// <summary>
+        ///   Ищет локализованную строку, похожую на Quick move.
+        /// </summary>
+        internal static string SettingsQuickMoveLabel {
+            get {
+                return ResourceManager.GetString("SettingsQuickMoveLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Ищет локализованную строку, похожую на Remove all tasks.
         /// </summary>
         internal static string SettingsRemoveAllTasksButton {
@@ -210,6 +291,15 @@ namespace TaskManager {
         internal static string SettingsSaveSettingsButton {
             get {
                 return ResourceManager.GetString("SettingsSaveSettingsButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ищет локализованную строку, похожую на Two columns settings.
+        /// </summary>
+        internal static string SettingsTwoColumnsSettingsLabel {
+            get {
+                return ResourceManager.GetString("SettingsTwoColumnsSettingsLabel", resourceCulture);
             }
         }
         

@@ -3,11 +3,14 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net8.0-android34.0</ActiveDebugFramework>
-    <ActiveDebugProfile>Pixel 5 - API 31 (Android 12.0 — API 31)</ActiveDebugProfile>
+    <ActiveDebugProfile>Pixel 5 - API 32 (Android 12.1 — API 32)</ActiveDebugProfile>
     <SelectedPlatformGroup>Emulator</SelectedPlatformGroup>
-    <DefaultDevice>pixel_5_-_api_31</DefaultDevice>
+    <DefaultDevice>pixel_5_-_api_32</DefaultDevice>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='DebugCreateTextPopup|net8.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
@@ -34,6 +37,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Settings.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="TaskPageTwoColumns.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="TaskPage.xaml">

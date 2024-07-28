@@ -4,13 +4,19 @@
 			 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
 			 xmlns:localization="clr-namespace:LocalizationResourceManager.Maui;assembly=LocalizationResourceManager.Maui"
              x:Class="TaskManager.CreateTextItemPopup"
-			 Size="300, 300">
+			 Size="300, 350"
+			 Opened="Popup_Opened">
 	
 	<Grid BackgroundColor="White">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="*"/>
-			<RowDefinition Height="4*"/>
+			<RowDefinition Height="3*"/>
 			<RowDefinition Height="*"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="1.5*"/>
+			
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="*"/>
@@ -34,12 +40,156 @@
 			Grid.Column="0" 
 			Grid.ColumnSpan="2" 
 			AutoSize="TextChanges" />
+
+		<Picker
+			FontAutoScalingEnabled="true" 
+			x:Name="TaskTypePicker"
+			x:FieldModifier="public"
+			Background="White"
+			FontFamily="Moonspace"
+			Grid.Row="3"
+			Grid.Column="1"
+			SelectedIndexChanged="TaskTypePicker_SelectedIndexChanged"
+			/>
+		<Label
+			Text="{localization:Translate CreateTextItemPopupTypeLabel}"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			FontSize="15"
+			FontFamily="Moonspace"
+			Grid.Row="3"
+			Grid.Column="0"
+			/>
+
+		<CheckBox
+			x:Name="QuickAddingCheckBox"
+			x:FieldModifier="public"
+			Grid.Row="2"
+			Grid.Column="0"
+			HorizontalOptions="Start"
+			CheckedChanged="QuickAddingCheckBox_CheckedChanged"
+			/>
 		
+		<Label
+			Grid.Row="2"
+			Grid.Column="0"
+			Grid.ColumnSpan="2"
+			HorizontalOptions="Center"
+			VerticalOptions="Center"
+			Text="{localization:Translate CreateTextItemPopupQuickAddingLabel}"
+			FontFamily="Moonspace"
+			FontSize="15"
+			/>
+
+		<Entry
+			x:Name="SymbolStartCountEntry"
+			x:FieldModifier="public"
+			Grid.Row="4"
+			Grid.Column="1"
+			VerticalOptions="StartAndExpand"
+			HorizontalTextAlignment="Center"
+			HorizontalOptions="Start"
+			Margin="10,0,0,0"
+			Text="" 
+			MaxLength="2" MaximumWidthRequest="25" Placeholder="0" Keyboard="Numeric"
+			/>
+
+		<Label
+			Text="{localization:Translate CreateTextItemPopupLabelTrimFirst}"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			FontSize="15"
+			FontFamily="Moonspace"
+			Grid.Row="4"
+			Grid.Column="0"
+
+			/>
+		<Label
+			Text="{localization:Translate CreateTextItemPopupLabelTrimBetween}"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			FontSize="15"
+			FontFamily="Moonspace"
+			Grid.Row="5"
+			Grid.Column="0"
+			/>
+		
+		<Entry
+			x:Name="SymbolBetweenStartCountEntry"
+			x:FieldModifier="public"
+			Grid.Row="5"
+			Grid.Column="1"
+			VerticalOptions="StartAndExpand"
+			HorizontalTextAlignment="Center"
+			HorizontalOptions="Start"
+			Margin="0,0,10,0"
+			Text="" 
+			MaxLength="2" MaximumWidthRequest="25" Placeholder="0" Keyboard="Numeric"
+			/>
+		<Entry
+			x:Name="SymbolBetweenEndCountEntry"
+			x:FieldModifier="public"
+			Grid.Row="5"
+			Grid.Column="1"
+			VerticalOptions="StartAndExpand"
+			HorizontalTextAlignment="Center"
+			HorizontalOptions="Start"
+			Margin="20,0,0,0"
+			Text="" 
+			MaxLength="2" MaximumWidthRequest="25" Placeholder="0" Keyboard="Numeric"
+			/>
+
+		<Label
+			Text="{localization:Translate CreateTextItemPopupLabelTrimFinally}"
+			FontFamily="Moonspace"
+			FontSize="15"
+			Grid.Row="4"
+			Grid.Column="1"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			/>
+
+		<Entry
+			x:Name="SymbolEndCountEntry"
+			x:FieldModifier="public"
+			Grid.Row="4"
+			Grid.Column="1"
+			VerticalOptions="StartAndExpand"
+			HorizontalTextAlignment="Center"
+			HorizontalOptions="End"
+			Margin="0,0,10,0"
+			Text="" 
+			MaxLength="2" MaximumWidthRequest="25" Placeholder="0" Keyboard="Numeric"
+			/>
+
+		<Label
+			Text="{localization:Translate CreateTextItemPopupLabelTrimSymbol}"
+			FontFamily="Moonspace"
+			FontSize="15"
+			Grid.Row="5"
+			Grid.Column="1"
+			VerticalOptions="Center"
+			HorizontalOptions="Center"
+			/>
+
+		<Entry
+			x:Name="SymbolEntry"
+			x:FieldModifier="public"
+			Grid.Row="5"
+			Grid.Column="1"
+			VerticalOptions="StartAndExpand"
+			HorizontalTextAlignment="Center"
+			HorizontalOptions="End"
+			Margin="0,0,10,0"
+			Text="" 
+			MaxLength="1" MaximumWidthRequest="20" Placeholder="," Keyboard="Text"
+			/>
+
 		<Button 
 			x:Name="CancelButton"
 			Text="{localization:Translate CreateTextItemPopupCancelButton}" 
 			Grid.Column="0" 
-			Grid.Row="3"
+			Grid.Row="6"
 			WidthRequest="150"
 			HorizontalOptions="CenterAndExpand"
 			FontSize="20" 
@@ -49,7 +199,7 @@
 			x:Name="CreateButton" 
 			Text="{localization:Translate CreateTextItemPopupCreateButton}" 
 			Grid.Column="1" 
-			Grid.Row="3"
+			Grid.Row="6"
 			WidthRequest="150" 
 			HorizontalOptions="CenterAndExpand" 
 			FontSize="20" 

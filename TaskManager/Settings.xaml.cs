@@ -64,6 +64,7 @@ public partial class Settings : ContentPage
 	private void Settings_Appearing(object sender, EventArgs e)
 	{
 		AppShell.AppShellInstance.AppShellTitle.Text = AppResources.ShellSettingsMenuLabel;
+		QuickMoveSetting.IsChecked = Preferences.Get("QuickMove", false);
 	}
 
 	private void SaveSettings_Clicked(object sender, EventArgs e)
@@ -78,5 +79,10 @@ public partial class Settings : ContentPage
 			resourceManager.CurrentCulture = new System.Globalization.CultureInfo("en");
 			AppShell.AppShellInstance.AppShellTitle.Text = AppResources.ShellSettingsMenuLabel;
 		}
+	}
+
+	private void QuickMoveSetting_CheckedChanged(object sender, CheckedChangedEventArgs e)
+	{
+		Preferences.Set("QuickMove", QuickMoveSetting.IsChecked);
 	}
 }

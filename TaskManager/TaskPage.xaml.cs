@@ -328,7 +328,7 @@ namespace TaskManager
 		{
 			if(ItemsDone.Count > 0)
 			{
-				for (int i = 0; i < ItemsToDo.Count; i++)
+				for (int i = 0; i < ItemsDone.Count; i++)
 				{
 					var item = ItemsDoing[i];
 					if (item != null)

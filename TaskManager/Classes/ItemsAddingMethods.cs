@@ -27,9 +27,18 @@ namespace TaskManager.Classes
 			await System.Threading.Tasks.Task.Run(GetItemsDone_Method);
 			return TaskPage.ItemsDone;
 		}
+		public static async Task<ObservableCollection<Item>> GetItemsToDoTwoRows()
+		{
+			await System.Threading.Tasks.Task.Run(GetItemsToDo_Method_TwoRows);
+			return TaskPageTwoColumns.ItemsToDo;
+		}
+		public static async Task<ObservableCollection<Item>> GetItemsDoneTwoRows()
+		{
+			await System.Threading.Tasks.Task.Run(GetItemsDone_Method_TwoRows);
+			return TaskPageTwoColumns.ItemsDone;
+		}
 		public static async void GetItemsToDo_Method()
 		{
-			//ItemsDatabase? database = new ItemsDatabase(AppShell.AppDatabasePath);
 			var db = new ItemsDatabase(MainPage.TaskDbPath);		
 			List<Item> items = await System.Threading.Tasks.Task.Run(db.GetItems);
 			if (items.Count > 0)
@@ -59,7 +68,6 @@ namespace TaskManager.Classes
 
 		public static async void GetItemsDoing_Method()
 		{
-			//ItemsDatabase? database;
 			var db = new ItemsDatabase(MainPage.TaskDbPath);
 			List<Item> items = await System.Threading.Tasks.Task.Run(db.GetItems);
 			if (items.Count > 0)
@@ -89,7 +97,6 @@ namespace TaskManager.Classes
 
 		public static async void GetItemsDone_Method()
 		{
-			//ItemsDatabase? database;
 			var db = new ItemsDatabase(MainPage.TaskDbPath);
 			List<Item> items = await System.Threading.Tasks.Task.Run(db.GetItems);
 			if (items.Count > 0 )
@@ -116,5 +123,63 @@ namespace TaskManager.Classes
 				}
 			
 		}
+		public static async void GetItemsToDo_Method_TwoRows()
+		{
+			var db = new ItemsDatabase(MainPage.TaskDbPath);
+			List<Item> items = await System.Threading.Tasks.Task.Run(db.GetItems);
+			if (items.Count > 0)
+			{
+				items = items.OrderBy(p => p.Position).ToList();
+				foreach (Classes.Item item in items)
+				{
+					if (item.CurrentCollection == "ItemsToDo")
+					{
+						if (item.isTextItem == true && item.isImageItem == true)
+						{
+							TaskPageTwoColumns.ItemsToDo.Add(new Classes.Item() { Id = item.Id, Text = item.Text, isTextItem = true, isImageItem = true, ImageSource = item.ImageSource, CurrentCollection = item.CurrentCollection, IsNotEditable = item.IsNotEditable, Position = item.Position });
+						}
+						else if (item.isTextItem == true && item.isImageItem == false)
+						{
+							TaskPageTwoColumns.ItemsToDo.Add(new Classes.Item() { Id = item.Id, Text = item.Text, isTextItem = true, isImageItem = false, CurrentCollection = item.CurrentCollection, Position = item.Position });
+						}
+						else if (item.isImageItem == true && item.isTextItem == false)
+						{
+							TaskPageTwoColumns.ItemsToDo.Add(new Classes.Item() { Id = item.Id, isImageItem = true, isTextItem = false, ImageSource = item.ImageSource, CurrentCollection = item.CurrentCollection, Position = item.Position });
+						}
+					}
+				}
+			}
+
+		}
+		public static async void GetItemsDone_Method_TwoRows()
+		{
+			var db = new ItemsDatabase(MainPage.TaskDbPath);
+			List<Item> items = await System.Threading.Tasks.Task.Run(db.GetItems);
+			if (items.Count > 0)
+			{
+				items = items.OrderBy(p => p.Position).ToList();
+				foreach (Classes.Item item in items)
+				{
+					if (item.CurrentCollection == "ItemsDone")
+					{
+						if (item.isTextItem == true && item.isImageItem == true)
+						{
+							TaskPageTwoColumns.ItemsDone.Add(new Classes.Item() { Id = item.Id, Text = item.Text, isTextItem = true, isImageItem = true, ImageSource = item.ImageSource, CurrentCollection = item.CurrentCollection, IsNotEditable = item.IsNotEditable, Position = item.Position });
+						}
+						else if (item.isTextItem == true)
+						{
+							TaskPageTwoColumns.ItemsDone.Add(new Classes.Item() { Id = item.Id, Text = item.Text, isTextItem = true, isImageItem = false, CurrentCollection = item.CurrentCollection, Position = item.Position });
+						}
+						else if (item.isImageItem == true)
+						{
+							TaskPageTwoColumns.ItemsDone.Add(new Classes.Item() { Id = item.Id, isImageItem = true, isTextItem = false, ImageSource = item.ImageSource, CurrentCollection = item.CurrentCollection, Position = item.Position });
+						}
+					}
+				}
+			}
+
+		}
 	}
+	
 }
+

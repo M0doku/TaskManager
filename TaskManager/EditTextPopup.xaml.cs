@@ -10,7 +10,7 @@ public partial class EditTextPopup : Popup
 	Classes.Item EditTextItem = ItemMethods.DefineItem();
 	public EditTextPopup()
 	{
-		InitializeComponent();		
+		InitializeComponent();
 	}
 
 	private void CancelButton_Clicked(object sender, EventArgs e)
@@ -23,7 +23,6 @@ public partial class EditTextPopup : Popup
 		string EditTextItemEditor = TextItemEditor.Text;
 		if(EditTextItemEditor.Length > 0)
 		{
-			Debug.WriteLine(EditTextItemEditor);
 			EditTextItem.Text = EditTextItemEditor;
 			await TaskPage.Database!.UpdateItem(EditTextItem);
 			this.Close();

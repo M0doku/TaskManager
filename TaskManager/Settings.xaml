@@ -8,68 +8,117 @@
 	<Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="*"/>
-			<RowDefinition Height="*"/>
-			<RowDefinition Height="*"/>
-			<RowDefinition x:Name="ContentsRow" x:FieldModifier="public" Height="10*"/>
-			<RowDefinition Height="*"/>
+			<RowDefinition Height="0.25*"/>
+			<RowDefinition Height="0.2*"/>
 		</Grid.RowDefinitions>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="*"/>
-			<ColumnDefinition Width="*"/>
-			<ColumnDefinition Width="*"/>
-			<ColumnDefinition Width="*"/>
+
 		</Grid.ColumnDefinitions>
+		<ScrollView>
+			<Grid>
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="0.5*"/>
+					<RowDefinition Height="1.5*"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition x:Name="ContentsRow" x:FieldModifier="public" Height="10*"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition/>
+				</Grid.RowDefinitions>
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+				<Label 
+					x:Name="PickerLabel" 
+					Grid.Row="0" 
+					FontSize="16" 
+					HorizontalOptions="Center" 
+					VerticalOptions="Center" 
+					Text="{localization:Translate SettingsPickerLanguageLabel}"/>
+				<CheckBox 
+					x:Name="DeleteAllRowsCB" 
+					IsChecked="False" 
+					Grid.Row="2" 
+					Grid.Column="0"/>
+
+				<Button 
+					BindingContext="{x:Reference DeleteAllRowsCB}" 
+					IsEnabled="{Binding IsChecked}" 
+					Grid.ColumnSpan="3" 
+					Grid.Column="1" 
+					x:Name="RemoveAllTasksButton" 
+					Text="{localization:Translate SettingsRemoveAllTasksButton}" 
+					FontSize="20" 
+					FontFamily="Courier New" 
+					Clicked="RemoveAllTasksButton_Clicked" 
+					FontAttributes="Bold"  
+					Grid.Row="2"/>
+
+				<Picker 
+					Grid.Row="0" 
+					FontSize="20" 
+					Grid.Column="1" 
+					Grid.ColumnSpan="3" 
+					HorizontalTextAlignment="Center" 
+					HeightRequest="30"
+					Title="{localization:Translate SettingsPickerLanguageTitle}"  
+					TitleColor="Black" 
+					TextColor="Black" 
+					x:Name="PickerLanguages" 
+					x:FieldModifier="public">
+
+					<Picker.Items>
+						<x:String>Русский</x:String>
+						<x:String>English</x:String>
+					</Picker.Items>
+				</Picker>
+
+				<Label
+					Grid.Row="4"
+					Text="{localization:Translate SettingsTwoColumnsSettingsLabel}"
+					Grid.ColumnSpan="4"
+					HorizontalTextAlignment="Center"
+					FontSize="20" 
+					/>
+
+				<CheckBox 
+					x:Name="QuickMoveSetting"
+					x:FieldModifier="public"
+					Grid.Row="5"
+					Grid.Column="0"
+					CheckedChanged="QuickMoveSetting_CheckedChanged"
+					/>
+
+				<Label
+					Grid.Row="5"
+					Grid.Column="1"
+					Grid.ColumnSpan="3"
+					VerticalOptions="Center"
+					Text="{localization:Translate SettingsQuickMoveLabel}"
+					FontSize="18"
+	
+					/>
+			</Grid>
+		</ScrollView>
 		
-		<Label 
-			x:Name="PickerLabel" 
-			Grid.Row="0" 
-			FontSize="16" 
-			HorizontalOptions="Center" 
-			VerticalOptions="Center" 
-			Text="{localization:Translate SettingsPickerLanguageLabel}"/>
 		
 		<Button 
 			x:Name="SaveSettings" 
-			Grid.Row="4" 
+			Grid.Row="7" 
 			Text="{localization:Translate SettingsSaveSettingsButton}" 
-			Grid.ColumnSpan="4" 
-			Clicked="SaveSettings_Clicked"/>
+			Grid.ColumnSpan="5" 
+			Clicked="SaveSettings_Clicked"
+			VerticalOptions="End"
+			MaximumHeightRequest="50"
+			/>
 		
-		<CheckBox 
-			x:Name="DeleteAllRowsCB" 
-			IsChecked="False" 
-			Grid.Row="2" 
-			Grid.Column="0"/>
 		
-		<Button 
-			BindingContext="{x:Reference DeleteAllRowsCB}" 
-			IsEnabled="{Binding IsChecked}" 
-			Grid.ColumnSpan="3" 
-			Grid.Column="1" 
-			x:Name="RemoveAllTasksButton" 
-			Text="{localization:Translate SettingsRemoveAllTasksButton}" 
-			FontSize="20" 
-			FontFamily="Courier New" 
-			Clicked="RemoveAllTasksButton_Clicked" 
-			FontAttributes="Bold"  
-			Grid.Row="2"/>
-		
-		<Picker 
-			Grid.Row="0" 
-			FontSize="20" 
-			Grid.Column="1" 
-			Grid.ColumnSpan="3" 
-			HorizontalTextAlignment="Center" 
-			Title="{localization:Translate SettingsPickerLanguageTitle}"  
-			TitleColor="Black" 
-			TextColor="Black" 
-			x:Name="PickerLanguages" 
-			x:FieldModifier="public">
-			
-			<Picker.Items>
-				<x:String>Русский</x:String>
-				<x:String>English</x:String>
-			</Picker.Items>
-		</Picker>
+
 	</Grid>
 </ContentPage>

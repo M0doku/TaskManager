@@ -126,6 +126,12 @@
   <data name="CreateTaskPopupLabel" xml:space="preserve">
     <value>Task name</value>
   </data>
+  <data name="CreateTaskPopupThreeColumnsButton" xml:space="preserve">
+    <value>3 Columns</value>
+  </data>
+  <data name="CreateTaskPopupTwoColumnsButton" xml:space="preserve">
+    <value>2 Columns</value>
+  </data>
   <data name="CreateTextItemPopupCancelButton" xml:space="preserve">
     <value>Cancel</value>
   </data>
@@ -134,6 +140,24 @@
   </data>
   <data name="CreateTextItemPopupLabel" xml:space="preserve">
     <value>Enter text:</value>
+  </data>
+  <data name="CreateTextItemPopupLabelTrimBetween" xml:space="preserve">
+    <value>Between words</value>
+  </data>
+  <data name="CreateTextItemPopupLabelTrimFinally" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="CreateTextItemPopupLabelTrimFirst" xml:space="preserve">
+    <value>Trim first</value>
+  </data>
+  <data name="CreateTextItemPopupLabelTrimSymbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="CreateTextItemPopupQuickAddingLabel" xml:space="preserve">
+    <value>Quick adding</value>
+  </data>
+  <data name="CreateTextItemPopupTypeLabel" xml:space="preserve">
+    <value>Type</value>
   </data>
   <data name="EditTextPopupSaveButton" xml:space="preserve">
     <value>Save</value>
@@ -162,11 +186,17 @@
   <data name="SettingsPickerLanguageTitle" xml:space="preserve">
     <value>Choose language:</value>
   </data>
+  <data name="SettingsQuickMoveLabel" xml:space="preserve">
+    <value>Quick move</value>
+  </data>
   <data name="SettingsRemoveAllTasksButton" xml:space="preserve">
     <value>Remove all tasks</value>
   </data>
   <data name="SettingsSaveSettingsButton" xml:space="preserve">
     <value>Save settings</value>
+  </data>
+  <data name="SettingsTwoColumnsSettingsLabel" xml:space="preserve">
+    <value>Two columns settings</value>
   </data>
   <data name="ShellEditButton" xml:space="preserve">
     <value>Edit</value>

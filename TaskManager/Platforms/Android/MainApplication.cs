@@ -22,6 +22,7 @@ namespace TaskManager
 			{
 				h.PlatformView.BackgroundTintList =
 					Android.Content.Res.ColorStateList.ValueOf(Colors.LavenderBlush.ToAndroid());
+				h.PlatformView.SetPadding(0, 2, 0, 0);
 			});
 			return MauiProgram.CreateMauiApp();
 		}

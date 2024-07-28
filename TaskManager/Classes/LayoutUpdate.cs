@@ -76,6 +76,76 @@ namespace TaskManager.Classes
 				TaskPage.TaskPageInstance.ButtonsRow1.Height = new GridLength(0, GridUnitType.Star);
 			}
 		}
+		
+		public static void TaskPageTwoColumnsLandscapeEditLayout()
+		{
+			if (TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible == false)
+			{
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible = true;
+
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ContentsRow.Height = new GridLength(4, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow0.Height = new GridLength(1, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow1.Height = new GridLength(1, GridUnitType.Star);
+
+			}
+			else if (TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible == true)
+			{
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible = false;
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ContentsRow.Height = new GridLength(6, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow0.Height = new GridLength(0, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow1.Height = new GridLength(0, GridUnitType.Star);
+			}
+		}
+
+		public static void TaskPageTwoColumnsPortraitEditLayout()
+		{
+			if (TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible == false)
+			{
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible = true;
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ContentsRow.Height = new GridLength(15, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow0.Height = new GridLength(1, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow1.Height = new GridLength(1, GridUnitType.Star);
+			}
+			else if (TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible == true)
+			{
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible = false;
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ContentsRow.Height = new GridLength(17, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow0.Height = new GridLength(0, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow1.Height = new GridLength(0, GridUnitType.Star);
+			}
+		}
+		public static void TaskPageTwoColumnsLandscapeLayout()
+		{
+			if (TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible == true)
+			{
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ContentsRow.Height = new GridLength(4, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow0.Height = new GridLength(1, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow1.Height = new GridLength(1, GridUnitType.Star);
+
+			}
+			else if (TaskPage.TaskPageInstance.ChangeLayoutButtonState.IsVisible == false)
+			{
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ContentsRow.Height = new GridLength(6, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow0.Height = new GridLength(0, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow1.Height = new GridLength(0, GridUnitType.Star);
+			}
+		}
+
+		public static void TaskPageTwoColumnsPortraitLayout()
+		{
+			if (TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible == true)
+			{
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ContentsRow.Height = new GridLength(15, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow0.Height = new GridLength(1, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow1.Height = new GridLength(1, GridUnitType.Star);
+			}
+			else if (TaskPageTwoColumns.TaskPageTwoColumnsInstance.ChangeLayoutButtonState.IsVisible == false)
+			{
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ContentsRow.Height = new GridLength(17, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow0.Height = new GridLength(0, GridUnitType.Star);
+				TaskPageTwoColumns.TaskPageTwoColumnsInstance.ButtonsRow1.Height = new GridLength(0, GridUnitType.Star);
+			}
+		}
 
 		public static void MainPageLandscapeLayout()
 		{
@@ -91,7 +161,7 @@ namespace TaskManager.Classes
 
 		public static void SettingsLandscapeLayout()
 		{
-			Settings.SettingsInstance!.ContentsRow.Height = new GridLength(2, GridUnitType.Star);
+			Settings.SettingsInstance!.ContentsRow.Height = new GridLength(1, GridUnitType.Star);
 		}
 
 		public static void SettingsPortraitLayout()

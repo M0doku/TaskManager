@@ -75,6 +75,19 @@ namespace TaskManager.Classes
 				break;
 			}
 		}
+
+		public void DeleteItemTwoColumns()
+		{
+			switch (CurrentCollection)
+			{
+				case "ItemsToDo":
+				TaskPageTwoColumns.ItemsToDo.Remove(this);
+				break;
+				case "ItemsDone":
+				TaskPageTwoColumns.ItemsDone.Remove(this);
+				break;
+			}
+		}
 		public void MoveLeft()
 		{
 			switch (CurrentCollection)
@@ -89,6 +102,30 @@ namespace TaskManager.Classes
 				TaskPage.ItemsDoing.Remove(this);
 				TaskPage.ItemsToDo.Add(this);
 				this.Position = TaskPage.ItemsToDo.Count;
+				this.CurrentCollection = "ItemsToDo";
+				break;
+			}
+		}
+		public void MoveRightTwoColumns()
+		{
+			switch (CurrentCollection)
+			{
+				case "ItemsToDo":
+				TaskPageTwoColumns.ItemsToDo.Remove(this);
+				TaskPageTwoColumns.ItemsDone.Add(this);
+				this.Position = TaskPageTwoColumns.ItemsDone.Count;
+				this.CurrentCollection = "ItemsDone";
+				break;
+			}
+		}
+		public void MoveLeftTwoColumns()
+		{
+			switch (CurrentCollection)
+			{
+				case "ItemsDone":
+				TaskPageTwoColumns.ItemsDone.Remove(this);
+				TaskPageTwoColumns.ItemsToDo.Add(this);
+				this.Position = TaskPageTwoColumns.ItemsToDo.Count;
 				this.CurrentCollection = "ItemsToDo";
 				break;
 			}

@@ -13,7 +13,14 @@ public partial class OpenImagePopup : Popup
 	public OpenImagePopup()
 	{
 		InitializeComponent();
-		ImagePopup.Source = TaskPage.img.Source;
+		if(MainPage.TaskType == "2C")
+		{
+			ImagePopup.Source = TaskPageTwoColumns.img.Source;
+		}
+		else if (MainPage.TaskType == "3C")
+		{
+			ImagePopup.Source = TaskPage.img.Source;
+		}
 		ImagePopup.SizeChanged += ImagePopup_SizeChanged;
 		DeviceDisplay.MainDisplayInfoChanged += UpdateLayout;
 	}

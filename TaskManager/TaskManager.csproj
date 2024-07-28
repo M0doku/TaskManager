@@ -39,6 +39,7 @@
 		<Version>0.01</Version>
 		<RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
 		<RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
+		<Configurations>Debug;Release;DebugCreateTextPopup</Configurations>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|AnyCPU'">
@@ -51,6 +52,11 @@
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+	  <AndroidUseAapt2>True</AndroidUseAapt2>
+	  <RunAOTCompilation>False</RunAOTCompilation>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='DebugCreateTextPopup|net8.0-android|AnyCPU'">
 	  <AndroidUseAapt2>True</AndroidUseAapt2>
 	  <RunAOTCompilation>False</RunAOTCompilation>
 	</PropertyGroup>
@@ -75,6 +81,8 @@
 	  <AndroidPackageFormat>apk</AndroidPackageFormat>
 	  <DebugSymbols>False</DebugSymbols>
 	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-ios|AnyCPU'" />
 
 	<ItemGroup>
 		<!-- App Icon -->
@@ -101,14 +109,6 @@
 	  <None Remove="Resources\Images\tm_splash.png" />
 	</ItemGroup>
 
-
-
-
-
-	<ItemGroup>
-	  <MauiImage Include="first.jpg" />
-	</ItemGroup>
-
 	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="7.0.1" />
 		<PackageReference Include="LocalizationResourceManager.Maui" Version="1.2.1" />
@@ -129,6 +129,9 @@
 	    <DesignTime>True</DesignTime>
 	    <AutoGen>True</AutoGen>
 	    <DependentUpon>AppResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="TaskPageTwoColumns.xaml.cs">
+	    <DependentUpon>TaskPageTwoColumns.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -153,6 +156,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Settings.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="TaskPageTwoColumns.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="TaskPage.xaml">

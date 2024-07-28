@@ -18,10 +18,12 @@ namespace TaskManager
 		private static Databases.TaskDatabase? database;
 		public static ObservableCollection<Classes.Task> Tasks { get; set; } = new ObservableCollection<Classes.Task>();
 		private readonly ILocalizationResourceManager resourceManager;
+		public static string TaskTypeString { get; set; } = "2";
 		public static ILocalizationResourceManager resourceManagerInstance;
 		public static MainPage MainPageInstance = new(resourceManagerInstance);
 		public static string TaskDbPath = "";
 		public static string TaskName = "";
+		public static string TaskType = "";
 		public MainPage(ILocalizationResourceManager resourceManager)
 		{
 			InitializeComponent();			
@@ -86,7 +88,8 @@ namespace TaskManager
 			{
 				var task = Tasks_CV.SelectedItem as Classes.Task;
 				var database = new Databases.ItemsDatabase(task!.DatabasePath);
-				await database.ClearDatabase();		
+				await database.ClearDatabase();
+				await database.CloseAllConnections();
 				Tasks.Remove(task);
 				await Database.DeleteTask(task);
 				if (File.Exists(task.DatabasePath))
@@ -102,11 +105,12 @@ namespace TaskManager
 		{
 			if(Tasks_CV.SelectedItem != null)
 			{
+				var task = Tasks_CV.SelectedItem as Classes.Task;
 				CreateTaskButton.IsVisible = false;
 				CreateTaskButton.IsEnabled = false;
 				OpenTaskButton.IsVisible = true;
 				OpenTaskButton.IsEnabled = true;
-				var task = Tasks_CV.SelectedItem as Classes.Task;
+				
 			}
 			else if(Tasks_CV.SelectedItem == null)
 			{
@@ -124,7 +128,16 @@ namespace TaskManager
 				var task = Tasks_CV.SelectedItem as Classes.Task;
 				TaskDbPath = task.DatabasePath;
 				TaskName = task.TaskName;
-				await Navigation.PushAsync(new TaskPage());
+				TaskType = task.TaskType;
+				if(task.TaskType == "2C")
+				{
+					await Navigation.PushAsync(new TaskPageTwoColumns());
+				}
+				else if(task.TaskType == "3C")
+				{
+					await Navigation.PushAsync(new TaskPage());
+				}
+				else { await Navigation.PushAsync(new TaskPage()); }
 
 			}
 		}
@@ -152,6 +165,8 @@ namespace TaskManager
 			TaskPage.ItemsToDo.Clear();
 			TaskPage.ItemsDoing.Clear();
 			TaskPage.ItemsDone.Clear();
+			TaskPageTwoColumns.ItemsToDo.Clear();
+			TaskPageTwoColumns.ItemsDone.Clear();
 		}
 	}
 }

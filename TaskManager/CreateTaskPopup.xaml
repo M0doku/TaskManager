@@ -10,9 +10,11 @@
 	    <Grid BackgroundColor="White">
 			<Grid.RowDefinitions>
 				<RowDefinition Height="*"/>
-			    <RowDefinition Height="4*"/>
+			    <RowDefinition Height="3*"/>
 			    <RowDefinition Height="*"/>
-			</Grid.RowDefinitions>
+				<RowDefinition Height="0.5*"/>
+			    <RowDefinition Height="*"/>
+		   </Grid.RowDefinitions>
 		    <Grid.ColumnDefinitions>
 			    <ColumnDefinition Width="*"/>
 		 	    <ColumnDefinition Width="*"/>
@@ -34,11 +36,37 @@
 				Grid.ColumnSpan="2" 
 				FontSize="20" 
 				MaxLength="24" />
+
+			<Button
+				x:Name="TwoColumnsButton"
+				x:FieldModifier="public"
+				Text="{localization:Translate CreateTaskPopupTwoColumnsButton}"
+				Grid.Row="2"
+				Grid.Column="0"
+				FontSize="18"
+				HorizontalOptions="CenterAndExpand"
+				VerticalOptions="CenterAndExpand"
+				BackgroundColor="Transparent"
+				Clicked="TwoColumnsButton_Clicked"
+				/>
 			
-		    <Button 
+			<Button 
+				x:Name="ThreeColumnsButton"
+				x:FieldModifier="public"
+				Text="{localization:Translate CreateTaskPopupThreeColumnsButton}"
+				Grid.Row="2"
+				Grid.Column="1"
+				FontSize="18"
+				HorizontalOptions="CenterAndExpand"
+				VerticalOptions="CenterAndExpand"
+				BackgroundColor="Transparent"
+			    Clicked="ThreeColumnsButton_Clicked"
+				/>
+
+	     	<Button 
 				Text="{localization:Translate CreateTaskPopupCancelButton}" 
 				Grid.Column="0" 
-				Grid.Row="3" 
+				Grid.Row="4" 
 				WidthRequest="150" 
 				HorizontalOptions="CenterAndExpand" 
 				FontSize="20" 
@@ -46,7 +74,7 @@
 		    <Button 
 				Text="{localization:Translate CreateTaskPopupCreateButton}" 
 				Grid.Column="1" 
-				Grid.Row="3" 
+				Grid.Row="4" 
 				WidthRequest="150"
 				HorizontalOptions="CenterAndExpand" 
 				FontSize="20" 

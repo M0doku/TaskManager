@@ -126,6 +126,12 @@
   <data name="CreateTaskPopupLabel" xml:space="preserve">
     <value>Имя задачи</value>
   </data>
+  <data name="CreateTaskPopupThreeColumnsButton" xml:space="preserve">
+    <value>3 Столбца</value>
+  </data>
+  <data name="CreateTaskPopupTwoColumnsButton" xml:space="preserve">
+    <value>2 Столбца</value>
+  </data>
   <data name="CreateTextItemPopupCancelButton" xml:space="preserve">
     <value>Отменить</value>
   </data>
@@ -134,6 +140,24 @@
   </data>
   <data name="CreateTextItemPopupLabel" xml:space="preserve">
     <value>Введите текст:</value>
+  </data>
+  <data name="CreateTextItemPopupLabelTrimBetween" xml:space="preserve">
+    <value>Между словами</value>
+  </data>
+  <data name="CreateTextItemPopupLabelTrimFinally" xml:space="preserve">
+    <value>В конце</value>
+  </data>
+  <data name="CreateTextItemPopupLabelTrimFirst" xml:space="preserve">
+    <value>Обрезать вначале</value>
+  </data>
+  <data name="CreateTextItemPopupLabelTrimSymbol" xml:space="preserve">
+    <value>Символ</value>
+  </data>
+  <data name="CreateTextItemPopupQuickAddingLabel" xml:space="preserve">
+    <value>Быстрое добавление</value>
+  </data>
+  <data name="CreateTextItemPopupTypeLabel" xml:space="preserve">
+    <value>Тип</value>
   </data>
   <data name="EditTextPopupSaveButton" xml:space="preserve">
     <value>Сохранить</value>
@@ -162,11 +186,17 @@
   <data name="SettingsPickerLanguageTitle" xml:space="preserve">
     <value>Выберите язык:</value>
   </data>
+  <data name="SettingsQuickMoveLabel" xml:space="preserve">
+    <value>Быстрое перемещение</value>
+  </data>
   <data name="SettingsRemoveAllTasksButton" xml:space="preserve">
     <value>Удалить все задачи</value>
   </data>
   <data name="SettingsSaveSettingsButton" xml:space="preserve">
     <value>Сохранить настройки</value>
+  </data>
+  <data name="SettingsTwoColumnsSettingsLabel" xml:space="preserve">
+    <value>Настройки задач с двумя столбцами</value>
   </data>
   <data name="ShellEditButton" xml:space="preserve">
     <value>Изменить</value>
